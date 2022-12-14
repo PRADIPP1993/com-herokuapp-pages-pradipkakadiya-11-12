@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[Enter username to the  fieldtomsmith[[ChromeDriver: chrome on WINDOWS (2d029d083c8d479808effc21b7d186e9)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password to the  fieldSuperSecretPassword![[ChromeDriver: chrome on WINDOWS (2d029d083c8d479808effc21b7d186e9)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[click on login button[[ChromeDriver: chrome on WINDOWS (2d029d083c8d479808effc21b7d186e9)] -> xpath: //i[contains(text(),'Login')]]]]>
+    </line>
+    <line>
+      <![CDATA[verift the text secure area[[ChromeDriver: chrome on WINDOWS (2d029d083c8d479808effc21b7d186e9)] -> xpath: //body[1]/div[2]/div[1]/div[1]/h2[1]]]]>
+    </line>
+    <line>
+      <![CDATA[verift the text secure area[[ChromeDriver: chrome on WINDOWS (2d029d083c8d479808effc21b7d186e9)] -> xpath: //body[1]/div[2]/div[1]/div[1]/h2[1]]]]>
+    </line>
+    <line>
+      <![CDATA[Enter username to the  fieldtomsmith[[ChromeDriver: chrome on WINDOWS (eda9c19a0ca3f3f5be36fac68243610b)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter username to the  fieldSuperSecretPassword[[ChromeDriver: chrome on WINDOWS (eda9c19a0ca3f3f5be36fac68243610b)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[click on login button[[ChromeDriver: chrome on WINDOWS (eda9c19a0ca3f3f5be36fac68243610b)] -> xpath: //i[contains(text(),'Login')]]]]>
+    </line>
+    <line>
+      <![CDATA[verift the text secure area[[ChromeDriver: chrome on WINDOWS (eda9c19a0ca3f3f5be36fac68243610b)] -> xpath: //div[@class='flash error']]]]>
+    </line>
+    <line>
+      <![CDATA[verify the error message[[ChromeDriver: chrome on WINDOWS (eda9c19a0ca3f3f5be36fac68243610b)] -> xpath: //div[@class='flash error']]]]>
+    </line>
+    <line>
+      <![CDATA[Enter username to the  fieldtomsmith1[[ChromeDriver: chrome on WINDOWS (fdaaf04729fd4f385c77ed4c3ae8301e)] -> name: username]]]>
+    </line>
+    <line>
+      <![CDATA[Enter password to the  fieldSuperSecretPassword![[ChromeDriver: chrome on WINDOWS (fdaaf04729fd4f385c77ed4c3ae8301e)] -> name: password]]]>
+    </line>
+    <line>
+      <![CDATA[click on login button[[ChromeDriver: chrome on WINDOWS (fdaaf04729fd4f385c77ed4c3ae8301e)] -> xpath: //i[contains(text(),'Login')]]]]>
+    </line>
+    <line>
+      <![CDATA[verify the error message[[ChromeDriver: chrome on WINDOWS (fdaaf04729fd4f385c77ed4c3ae8301e)] -> xpath: //div[@class='flash error']]]]>
+    </line>
+    <line>
+      <![CDATA[verify the error message[[ChromeDriver: chrome on WINDOWS (fdaaf04729fd4f385c77ed4c3ae8301e)] -> xpath: //div[@class='flash error']]]]>
+    </line>
+  </reporter-output>
+  <suite name="regression suite" duration-ms="14111" started-at="2022-12-12T12:51:56 GMT" finished-at="2022-12-12T12:52:11 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginPageTest.UserSholdLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="UserSholdLoginSuccessfullyWithValidCredentials" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="verifyThePasswordErrorMessage" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginPageTest.verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="verifyTheUsernameErrorMessage" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="LoginPageTest.UserSholdLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="UserSholdLoginSuccessfullyWithValidCredentials" class="com.herokuapp.internet.testsuite.LoginPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Regression Test" duration-ms="14111" started-at="2022-12-12T12:51:56 GMT" finished-at="2022-12-12T12:52:11 GMT">
+      <class name="com.herokuapp.internet.testsuite.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="setUp" is-config="true" duration-ms="5365" started-at="2022-12-12T12:51:57 GMT" finished-at="2022-12-12T12:52:02 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="inIt" is-config="true" duration-ms="32" started-at="2022-12-12T12:52:02 GMT" finished-at="2022-12-12T12:52:02 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="UserSholdLoginSuccessfullyWithValidCredentials()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="UserSholdLoginSuccessfullyWithValidCredentials" duration-ms="773" started-at="2022-12-12T12:52:02 GMT" finished-at="2022-12-12T12:52:03 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter username to the  fieldtomsmith[[ChromeDriver: chrome on WINDOWS (2d029d083c8d479808effc21b7d186e9)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password to the  fieldSuperSecretPassword![[ChromeDriver: chrome on WINDOWS (2d029d083c8d479808effc21b7d186e9)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[click on login button[[ChromeDriver: chrome on WINDOWS (2d029d083c8d479808effc21b7d186e9)] -> xpath: //i[contains(text(),'Login')]]]]>
+            </line>
+            <line>
+              <![CDATA[verift the text secure area[[ChromeDriver: chrome on WINDOWS (2d029d083c8d479808effc21b7d186e9)] -> xpath: //body[1]/div[2]/div[1]/div[1]/h2[1]]]]>
+            </line>
+            <line>
+              <![CDATA[verift the text secure area[[ChromeDriver: chrome on WINDOWS (2d029d083c8d479808effc21b7d186e9)] -> xpath: //body[1]/div[2]/div[1]/div[1]/h2[1]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- UserSholdLoginSuccessfullyWithValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-12-12T12:52:03 GMT" finished-at="2022-12-12T12:52:03 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="setUp" is-config="true" duration-ms="3282" started-at="2022-12-12T12:52:03 GMT" finished-at="2022-12-12T12:52:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="inIt" is-config="true" duration-ms="0" started-at="2022-12-12T12:52:06 GMT" finished-at="2022-12-12T12:52:06 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyThePasswordErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="verifyThePasswordErrorMessage" duration-ms="713" started-at="2022-12-12T12:52:06 GMT" finished-at="2022-12-12T12:52:07 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter username to the  fieldtomsmith[[ChromeDriver: chrome on WINDOWS (eda9c19a0ca3f3f5be36fac68243610b)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter username to the  fieldSuperSecretPassword[[ChromeDriver: chrome on WINDOWS (eda9c19a0ca3f3f5be36fac68243610b)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[click on login button[[ChromeDriver: chrome on WINDOWS (eda9c19a0ca3f3f5be36fac68243610b)] -> xpath: //i[contains(text(),'Login')]]]]>
+            </line>
+            <line>
+              <![CDATA[verift the text secure area[[ChromeDriver: chrome on WINDOWS (eda9c19a0ca3f3f5be36fac68243610b)] -> xpath: //div[@class='flash error']]]]>
+            </line>
+            <line>
+              <![CDATA[verify the error message[[ChromeDriver: chrome on WINDOWS (eda9c19a0ca3f3f5be36fac68243610b)] -> xpath: //div[@class='flash error']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThePasswordErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="tearDown" is-config="true" duration-ms="16" started-at="2022-12-12T12:52:07 GMT" finished-at="2022-12-12T12:52:07 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="setUp" is-config="true" duration-ms="2739" started-at="2022-12-12T12:52:07 GMT" finished-at="2022-12-12T12:52:10 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="inIt" is-config="true" duration-ms="8" started-at="2022-12-12T12:52:10 GMT" finished-at="2022-12-12T12:52:10 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyTheUsernameErrorMessage()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="verifyTheUsernameErrorMessage" duration-ms="745" started-at="2022-12-12T12:52:10 GMT" finished-at="2022-12-12T12:52:11 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter username to the  fieldtomsmith1[[ChromeDriver: chrome on WINDOWS (fdaaf04729fd4f385c77ed4c3ae8301e)] -> name: username]]]>
+            </line>
+            <line>
+              <![CDATA[Enter password to the  fieldSuperSecretPassword![[ChromeDriver: chrome on WINDOWS (fdaaf04729fd4f385c77ed4c3ae8301e)] -> name: password]]]>
+            </line>
+            <line>
+              <![CDATA[click on login button[[ChromeDriver: chrome on WINDOWS (fdaaf04729fd4f385c77ed4c3ae8301e)] -> xpath: //i[contains(text(),'Login')]]]]>
+            </line>
+            <line>
+              <![CDATA[verify the error message[[ChromeDriver: chrome on WINDOWS (fdaaf04729fd4f385c77ed4c3ae8301e)] -> xpath: //div[@class='flash error']]]]>
+            </line>
+            <line>
+              <![CDATA[verify the error message[[ChromeDriver: chrome on WINDOWS (fdaaf04729fd4f385c77ed4c3ae8301e)] -> xpath: //div[@class='flash error']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTheUsernameErrorMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.herokuapp.internet.testsuite.LoginPageTest@706a04ae]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-12-12T12:52:11 GMT" finished-at="2022-12-12T12:52:11 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.internet.testsuite.LoginPageTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- regression suite -->
+</testng-results>
